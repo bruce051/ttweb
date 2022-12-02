@@ -11,19 +11,20 @@ body {
     max-width: 1500px;
     height: 788px;
     margin: 0 auto;
-    border: 1px solid red;  
+    /* border: 1px solid red;   */
 }
 .left{
     width: 72px;
-    border: 1px solid red;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
 }
 .center{
     width: 500px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 .right{
     width: 965px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-image: url('../img/chat.bmp') !important;
     background-size: cover;
     background-repeat: no-repeat;
@@ -103,10 +104,13 @@ li{
 }
 
 .right_usr{
-    border: 1px solid red;
     height: 40px;
     width: 965px;
+    margin-left: 1px;
     background-color: white;
+    margin-top: -10px;  
+    border-left: 1px solid black; 
+    border-right: 1px solid black;
 }
 
 .df{
@@ -157,17 +161,32 @@ li{
 
 }
 .icc{
-    margin-top: 10px;
+    margin-top: 1px;
     cursor: pointer;
 }
 
 .search__bar-inp{
-    padding-left: 19px !important;
+    padding-left: 30px !important;
     padding: 4px;
-    padding-right: 45px;
+    padding-right: 185px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
-    outline: dodgerblue;
+    outline-color: dodgerblue;
     margin-bottom: 10px;
+}
+.right{
+    position: relative;
+}
+
+.write{
+    padding: 15px 0px;
+    position: absolute;
+    bottom: 0;
+    padding-right: 790px;
+    padding-left: 10px;
+    border:  none;
+    outline: none;
+    border-left: 1px solid black; 
+    border-right: 1px solid black;
 }
