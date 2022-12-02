@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    max-width: 1500px;
+    height: 788px;
+    margin: 0 auto;
+    border: 1px solid red;  
+}
+.left{
+    width: 72px;
+    border: 1px solid red;
+}
+.center{
+    width: 500px;
+    border: 1px solid red;
+}
+.right{
+    width: 965px;
+    border: 1px solid red;
+    background-image: url('../img/chat.bmp') !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.left__info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.left__info span{
+    margin-bottom: 20px;
+}
+.btn__icons{
+    font-size: 23px;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.btn__icons__menu{
+    font-size: 23px;
+    cursor: pointer;
+    padding: 6px;
+}
+
+.user1{
+    margin: 0 auto;
+    width: 95%;
+    height: 50px;
+    /* border: 1px solid green; */
+    display: flex;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+.user1:hover{
+    background-color: rgb(204, 204, 204);
+}
+
+.user__letf img{
+    margin-top: 4px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.user__info{
+    margin-left: 15px;
+}
+
+.user__info h3{
+    font-size: 15px;
+    margin: 5px 0px;
+}
+
+.user__info p{
+    font-size: 12px;
+}
+
+.user__right button{
+    background: none;
+    border-radius: 10px;
+    width: 80px;
+    height: 30px;
+    margin-top: 14px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.user__right button:hover{
+    background-color: rgb(79, 190, 245);
+}
+
+li{
+    list-style-type: none;
+}
+
+.right_usr{
+    border: 1px solid red;
+    height: 40px;
+    width: 965px;
+    background-color: white;
+}
+
+.df{
+    display: flex !important;
+}
+
+.thereLi{
+    width: 500px;
+    border: 1px solid;
+    margin-left: 10px;
+    background-color: white;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+}
+
+.meLi{
+    width: 500px;
+    border: 1px solid;
+    margin-left: 10px;
+    /* background-color: white; */
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    /* border-bottom-right-radius: 8px; */
+    margin-left: 450px;
+    background-color: rgb(27, 118, 210);
+    color: white;
+}
+.right_usr-name{
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.search__bar{
+    display: flex;
+    align-items: center;
+
+}
+.icc{
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.search__bar-inp{
+    padding-left: 19px !important;
+    padding: 4px;
+    padding-right: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    outline: dodgerblue;
+    margin-bottom: 10px;
+}
